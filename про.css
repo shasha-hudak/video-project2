@@ -1,0 +1,7 @@
+body{ font-family: "Courier New"; background-image: url("https://themes.webuniverseua.com/courses/HTML_CSS/theme22/resources/task1/background.png");  display: flex; justify-content: center; align-items: center;  height: 100vh;margin: 0;}
+.game-menu{  list-style: none; padding:0; margin: 0; display: flex;  flex-direction: column; background-color: #222;  border-radius: 10px; width: 200px;}
+.game-menu > li{ position: relative; padding :15px; color: #fff;  text-align: center; border: 1px solid #444; border-radius: 10px;}
+.game-menu > li:hover{ background: #444;}
+.submenu{ display: none; position: absolute; top: 0; left: 100%; list-style-type:none; padding:0: margin: 0; background-color: #555; border-radius: 5px;}
+.submenu li { padding: 12px; text-align:center; border: 1px solid #666; border-radius: 10px;}
+.game-menu li:hover > .submenu{ display: block;}
